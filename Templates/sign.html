@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gizmojo.com</title>
+	<link rel="stylesheet" type="text/css" href="../Css/project.css">
+	<link rel="stylesheet" type="text/css" href="../Project/fontAwesome/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="../Project/fontAwesome/css/font-awesome.min.css">
+	
+</head>
+<body background="../Images/proje.png" style="background-repeat: no-repeat;">
+	<div class="header">
+		<p>Gizmojo</p>
+		<div class="home"><a href="Project.html" >Home</a></div>
+		<div class="categories"><a href="categories.html">Categories</a></div>
+		<div class="latest"><a href="Latestnews.html">Latest News</a></div>
+		<div class="search"><form method="get"><input type="text" name="search" placeholder="Search"><button type="submit"><i class="fa fa-search"></i></button></form></div>
+		<div class="review"><a href="reviews.html">Review</a></div>
+		<div class="login"><a href="login.html" >Login</a></div>
+		<div class="signup"><a href="sign.html" class="active">Signup</a></div>
+
+	</div>
+	<div class="mains">
+		<form method="post" name="post">
+			
+					<div class="fname">
+					<p class="para" style="color: lightblue;">Full name:<input type="text" name="fname" placeholder="Enter a name"></p>
+					
+					</div>
+					<div class="fname" >
+					<p class="para" style="color: lightblue;">Address:<input type="text" name="address" placeholder="Enter your address"></p>
+					
+					</div>
+					<div class="fname">
+					<p class="para" style="color: lightblue;">Username:<input type="text" name="uname" placeholder="Enter your username"></p>
+					
+					</div>
+					<div class="fname">
+					<p class="para" style="color: lightblue;">Password:<input type="password" name="pword" placeholder="Enter your password"></p>
+					
+					</div>
+					<div class="fname">
+					<p class="para" style="color: lightblue;">Email:<input type="email" name="email" placeholder="Enter your email"></p>
+					
+					</div>
+					<div class="fname">
+					<p class="para" style="color: lightblue;">Phone:<input type="number" name="phone" placeholder="Enter your phonenumber"></p>
+					
+					</div>
+				
+			
+			<input type="submit" name="submit" value="submit" onclick="signValid()">
+		</form>
+		
+	</div>
+	<div class="footers">
+		<p class="cus">Contact us:</p>
+		<p class="email">Email:Gizteq@gmail.com</p>
+		<p class="Address">Address:Lokanthali</p>
+		<p class="phone">Phone:01-2345678</p>
+		<button type="submit"><i class="fa fa-facebook-square"></i></button>
+		<button type="submit"><i class="fa fa-instagram"></i></button>
+		</button><button type="submit"><i class="fa fa-twitter-square"></i></button>
+	</div>
+	<script type="text/javascript">
+		function signValid() {
+			fullname=document.post.fname.value;
+			address=document.post.address.value;
+			username=document.post.uname.value;
+			password=document.post.pword.value;
+			email=document.post.email.value;
+			phone=document.post.phone.value;
+
+			fnameExp=/^[a-zA-Z]+$/;
+			addExp=/^[a-zA-Z0-9]+$/;
+			unameExp=/^[a-zA-Z0-9]+$/;
+			pwordExp=/^[a-zA-Z0-9]+$/;
+			emailExp=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+			phoneExp=/^[0-9]+$/;
+
+			if(fullname="" || !fullname.match(fnameExp)){
+				alert("please enter valid name");
+			}
+			if (address="" || !address.match(addExp)){
+				alert("please enter valid address");
+			}
+			if(username="" || !username.match(unameExp)){
+				alert("please enter valid username");
+			}
+			if(password="" || !password.match(pwordExp)){
+				alert("please enter valid password");
+			}
+			if(email="" || !email.match(emailExp)){
+				alert("please enter valid email");
+			}
+			if(phone="" || !phone.match(phoneExp)){
+				alert("please enter valid number");
+			}
+			}
+			
+					
+	</script>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,328 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	
+
+}
+div.header{
+	color: white;
+	
+	margin-top: 0px;
+	background-color:#57bcff;
+	font-color:white;
+	/*position: fixed;*/
+	width: 100%;
+
+}
+.header a{
+	color: white;
+	text-decoration: none;
+
+
+
+}
+.header a:visited{
+	color: none;
+}
+.header a:hover{
+	color: lightgreen;
+}
+.header .active{
+	color: green;
+}
+p{
+	font-size: 50px;
+	
+}
+div.body{
+	width: 900px;
+	height: 900px;
+}
+div.frow{
+	height: 30%
+	width:100%;
+}
+div.frowf{
+float: left;
+width: 40%;
+}
+.frows img{
+	width: 100%;
+}
+div.frows{
+	float: right;
+	width: 40%;
+}
+.frowf img{
+	width: 100%;
+}
+div.srow{
+	height: 30%
+	width:100%;
+	
+}
+
+div.srowf{
+float: left;
+width: 40%;
+
+}
+.srowf img{
+	width: 100%;
+}
+div.srows{
+	float: right;
+	width: 40%;
+}
+.srows img{
+	width: 100%;
+}
+div.trow{
+	height: 30%
+	width:100%;
+
+}
+div.trowf{
+float: left;
+width: 40%;
+
+}
+.trowf img{
+	widows: 100%;
+}
+div.trows{
+	width: 40%;
+	float: right;
+
+}
+.trows img{
+	width: 100%;
+}
+.para{
+	font-size: 20px;
+	line-height: 30px;
+}
+.lfrm{
+	/*background-color:#57bcff;*/
+	/*height:100%;*/
+	/*width: 100%; */
+	margin-top: 10px;
+	margin-left: 40%;
+	z-index: 145;
+	/*background-image:url(Images/background.jpg)*/
+
+}
+
+.news img{
+	margin-top: 10px;
+}
+.fname{
+	width: 100px;
+}
+
+
+.signup{
+	margin-left: 30px;
+	margin-right: 20px;
+	font-size: 40px;
+	display: inline;
+	font-color:white;
+	
+}
+.login{
+	margin-left: 10px;
+	/*margin-right: 20px;*/
+	font-size: 40px;
+	display: inline;
+	font-color:white;
+	
+}
+.home{
+	margin-left: 10px;
+	margin-right: 20px;
+	font-size: 40px;
+	display: inline;
+	font-color:white;
+}
+.categories{
+	margin-right: 20px;
+	font-size: 40px;
+	display: inline;
+	font-color:white;
+}
+.latest{
+	margin-right: 20px;
+	font-size: 40px;
+	display: inline;
+	font-color:white;
+
+}
+.search{
+	margin-right: 20px;
+	font-size: 40px;
+	display: inline;
+	font-color:white;
+
+}
+.review{
+	margin-right: 20px;
+	font-size: 40px;
+	display: inline;
+	font-color:white;
+}
+.fa-search{
+	font-size: 45px;
+	color: red;
+
+}
+form{
+	display: inline;
+}
+.fa-bell
+{
+	margin-left: 10px;
+}
+div.footers{
+	bottom: 0px;
+	width: 100%;
+	background-color:lightgrey;
+	margin-top: 15px;
+	position: fixed;
+}
+div.footera{
+	bottom: 0px;
+	width: 100%;
+	background-color: lightgrey;
+	margin-top: 1210px;
+
+}
+div.footer{
+	/*position: fixed;*/
+	bottom: 0px;
+	width: 100%;
+	background-color: lightgrey;
+	margin-top: 15px;
+}
+.fa-twitter-square{
+	font-size: 20px;
+	color: skyblue;
+	left-margin:10px;
+}
+.fa-instagram{
+	font-size: 20px;
+	color: #D6436D;
+}
+.fa-facebook-square
+{
+	font-size: 20px;
+	color: blue;
+}
+.one img{
+	max-width: 100%
+}
+.onep{
+	max-width: 100%
+}
+.two img{
+	max-width: 100%
+}
+.three img{
+	max-width: 100%
+}
+.four img{
+	max-width: 100%
+}
+.cus{
+	font-size: 20px;
+}
+.email{
+font-size: 20px;
+}
+.Address{
+font-size: 20px;
+}
+.phone{
+	font-size: 20px;
+}
+div.mains{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+div.body{
+	height: 200px;
+	width: 100%;
+}
+div.second{
+	/*position: absolute;*/
+	height: 300px;
+	width: 100%;
+}
+.one{
+	position: relative;
+	width: 25%;
+	height: 300px;
+	/*background-color: red;*/
+display: inline-block;
+}
+.two{
+position: relative;
+	width: 25%;
+	height: 300px;
+	/*background-color: blue;*/
+display: inline-block;
+}
+.three{
+position: relative;
+	width: 25%;
+	height: 300px;
+	/*background-color: yellow;*/
+display: inline-block;
+}
+.four{
+	position: relative;
+	width: 23%;
+	height: 300px;
+	/*background-color: green;*/
+	display: inline-block;
+}
+pre{
+	/*border: 2px solid skyblue;*/
+	display: inline;
+}
+.footera i{
+	font-size: 25px;
+	}
+.footers i{
+	font-size: 25px;
+}
+.footer i{
+	font-size: 25px;
+}
+.rev i{
+	font-size: 30px;
+	color: #57bcff;
+}
+.body a:hover{
+	color: lightgreen;
+}
+.body a{
+	text-decoration: none;
+}
+.rev a{
+	text-decoration: none;
+}
+.news a{
+	text-decoration: none;
+}
+.rev a:hover{
+	color: lightgreen;
+}
+.news a:hover{
+	color: lightgreen;
+}
+.second a{
+	text-decoration: none;
+}
+.second a:hover{
+	color: lightgreen;
+}
